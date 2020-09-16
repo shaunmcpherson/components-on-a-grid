@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *,
@@ -37,7 +38,7 @@ main {
 }
 
 h1 {
-  margin: 0 1rem;
+  margin: 1rem 1rem 0;
   width: 14rem;
   grid-column: 1 / 3;
   grid-row: 4;
@@ -56,15 +57,13 @@ nav {
 
 ul {
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 2fr);
-  grid-gap: 1rem;
-  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 a {
-  font-family: "Patua One", Serif;
+  font-family: "Patua One", sans-erif;
   font-size: 2rem;
   text-decoration: underline;
   color: #fff;
@@ -86,12 +85,10 @@ figure:nth-of-type(2) {
 
 h2 {
   margin-bottom: 0;
-  font-family: "Patua One", serif;
-  font-size: 2rem;
+  font-family: "Patua One", sans-serif;
   color: #30658d;
 }
 
 p {
   margin: 0;
-  font-family: Georgia, serif;
 }
