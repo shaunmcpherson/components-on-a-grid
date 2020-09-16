@@ -35,7 +35,7 @@ main {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 2fr);
   grid-template-areas:
-    "figure figure";
+   "figure figure";
   grid-gap: 1rem;
 }
 
